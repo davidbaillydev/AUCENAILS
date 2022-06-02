@@ -245,7 +245,7 @@ ul li {
 	transform: translateX(-50%) translateY(-50%);
 }
 .nav-toggle span:before, .nav-toggle span:after {
-	background-color: rgb(249, 245, 245);
+	background-color: #000;
 	content: "";
 	height: 100%;
 	position: absolute;
