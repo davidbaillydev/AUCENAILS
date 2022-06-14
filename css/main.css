@@ -52,8 +52,10 @@ h5 {
 	color: #fff;
 }
 .btn-large {
-	padding: 15px 40px;
+	padding: 15px 20px;
 }
+
+
 #map-overlay {
     height:400px;
     margin-top:-405px;
@@ -321,7 +323,7 @@ ul li {
 	min-height: 750px;
 }
 .banner-text {
-	padding-top: 45%;
+	padding-top: 40%;
 }
 .banner-text h1 {
 	color: #FBFBFB;
@@ -336,8 +338,8 @@ ul li {
 	font-size: 26px;
 	font-weight: 300;
 	line-height: 24px;
-	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	text-shadow:0 0.5px 0 #0e0e0e, 0 -0.5px 0 #0d0d0d;
 }
 /* ==========================================================================
