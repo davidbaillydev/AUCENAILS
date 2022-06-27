@@ -78,6 +78,7 @@
 }
  .banner-text h1 {
  font-size: 52px;
+ font-family:fantasy;
 }
  .banner-text p {
  font-size: 18px;
@@ -110,6 +111,7 @@
 }
  .banner-text h1 {
  font-size: 42px;
+ font-family:fantasy;
 }
  .testimonials p {
  font-size: 12px;
