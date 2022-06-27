@@ -327,15 +327,16 @@ ul li {
 }
 .banner-text h1 {
 	color: #FBFBFB;
-	font-family: "Open Sans", Arial, sans-serif;
-	font-size: 80px;
+	font-family:fantasy;
+	font-size: 70px;
 	font-weight: 900;
-	text-transform: uppercase;
+	/* text-transform:lowercase; */
 	text-shadow:0 0.5px 0 #0e0e0e, 0 -0.5px 0 #0d0d0d;
+	text-decoration:wavy;
 }
 .banner-text p {
 	color: #FBFBFB;
-	font-size: 26px;
+	font-size: 20px;
 	font-weight: 300;
 	line-height: 24px;
 	margin-top: 10px;
