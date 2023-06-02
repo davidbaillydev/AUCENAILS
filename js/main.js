@@ -55,3 +55,8 @@ $(document).ready(function() {
 	});
 	
 });
+
+document.querySelector('.widget-toggle').addEventListener('click', function() {
+	document.querySelector('.widget-content').classList.toggle('show');
+  });
+  

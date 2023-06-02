@@ -773,3 +773,48 @@ ul.list-default li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
+
+.contact-widget {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 9999;
+  }
+  
+  .widget-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: rgb(68, 190, 199);
+	box-shadow: 0 0 20px rgba(68, 190, 199, 0.7);
+	transition: box-shadow 0.3s ease;
+	animation: pulse 2s infinite;
+  }
+  
+  .widget-icon::before {
+	content: "\f095";
+	font-family: "Font Awesome 5 Free";
+	color: #fff;
+	font-size: 24px;
+  }
+  
+  .widget-icon:hover {
+	box-shadow: 0 0 40px rgba(68, 190, 199, 0.9);
+  }
+  
+  @keyframes pulse {
+	0% {
+	  box-shadow: 0 0 20px rgba(68, 190, 199, 0.7);
+	}
+	50% {
+	  box-shadow: 0 0 40px rgba(68, 190, 199, 0.9);
+	}
+	100% {
+	  box-shadow: 0 0 20px rgba(68, 190, 199, 0.7);
+	}
+  }
+  
