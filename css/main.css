@@ -364,6 +364,22 @@ ul li {
 	transition: opacity 1s ease;
   }
   
+/* Media Queries pour rendre la bannière responsive */
+@media (max-width: 768px) {
+	.banner {
+	  min-height: 500px; /* Ajustez la hauteur minimale selon vos besoins */
+	}
+  
+	.banner-image {
+	  /* Ajustez la hauteur des images pour les appareils mobiles */
+	  height: 500px;
+	}
+  
+	.banner-text h1 {
+	  font-size: 60px; /* Ajustez la taille du texte pour les appareils mobiles */
+	}
+  }
+  
   /* Appliquer les images de la bannière */
   .banner-image:nth-child(1) {
 	background-image: url(../images/banner/1.png);
