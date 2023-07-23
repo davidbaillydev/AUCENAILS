@@ -250,9 +250,13 @@
   
   <!-- banner text -->
   <div class="container">
+    <div class="banner-image"></div>
+    <div class="banner-image"></div>
+    <div class="banner-image"></div>
+    <div class="banner-image"></div>
     <div class="col-md-10 col-md-offset-1">
       <div class="banner-text text-center">
-        <h1>Aucé'Nails </h1>
+        <h1 id="animated-text" ></h1>
         <p>La Beauté de vos Ongles à Blagnac, votre prothésiste ongulaire prendra soin de vos mains  </p>
         <a href="#package" class="btn btn-large">formules à la carte</a>
         
@@ -266,7 +270,7 @@
 <section id="intro" class="section intro">
   <div class="container">
     <div class="col-md-8 col-md-offset-2 text-center">
-      <h3>Bienvenue!</h3>
+      <h3>Bienvenue</h3>
       <p>Je vous propose de prendre soin de vous avec l'une de mes nombreuses manucures. La manucure est une belle façon de se reconnecter avec soi-même et de prendre conscience de ses besoins. Je travaille à domicile, dans mon environnement où vous pourrez bénéficier d'une petite attention particulière lors de votre séance afin de rendre ce moment le plus rassurant possible.</p>
     </div>
   </div>
@@ -699,6 +703,7 @@ semper aliquam quis mattis consectetur adipiscing elit.." </h1>
     			31700<br>
     			<abbr title="Phone">Tel:</abbr> +33 6 12 34 56 76
     		</address>
+        <a href="https://www.iubenda.com/privacy-policy/32617707" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Politique de Confidentialité</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script> <br>
 			  © 2022 All Rights Reserved By Aucé'nails. <a href="https://lcdigitale.fr/" target="_blank">Deployer par </a>lcdigitale web agency
     	</div>
     </div>
@@ -839,6 +844,27 @@ semper aliquam quis mattis consectetur adipiscing elit.." </h1>
             snow.init(10);
         };
     </script> -->
+
+
+    <script>
+      // Script pour l'effet d'écriture animée
+      const text = "Aucé'Nails"; // Remplacez par le texte que vous souhaitez afficher
+      const delay = 100; // Durée entre chaque lettre en millisecondes
+  
+      let i = 0;
+      function typeWriter() {
+        if (i < text.length) {
+          document.getElementById("animated-text").innerHTML += text.charAt(i);
+          i++;
+          setTimeout(typeWriter, delay);
+        }
+      }
+  
+      // Démarrer l'effet d'écriture lors du chargement de la page
+      window.onload = function() {
+        typeWriter();
+      };
+    </script>
 
 
 </body>
