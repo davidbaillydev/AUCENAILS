@@ -462,6 +462,7 @@ ul li {
 	text-shadow:0 0.5px 0 #0e0e0e, 0 -0.5px 0 #0d0d0d;
 	text-decoration:wavy;
 }
+/* Styles pour le texte de la bannière */
 .banner-text p {
 	color: #FBFBFB;
 	font-size: 20px;
@@ -469,8 +470,12 @@ ul li {
 	line-height: 24px;
 	margin-top: 10px;
 	margin-bottom: 30px;
-	text-shadow:0 0.5px 0 #0e0e0e, 0 -0.5px 0 #0d0d0d;
-}
+	text-shadow: 0 0.5px 0 #0e0e0e23, 0 -0.5px 0 #0d0d0d1e;
+  
+	/* Ajouter le fond semi-transparent noir */
+	background: rgba(0, 0, 0, 0.267);
+	padding: 10px; /* Vous pouvez ajuster la valeur de padding selon vos préférences */
+  }
 /* ==========================================================================
 	$intro
 ========================================================================== */
