@@ -384,7 +384,7 @@ ul li {
   
   /* Appliquer les images de la bannière */
   .banner-image:nth-child(1) {
-	background-image:url('../images/banner/1.mp4');
+	background-image:url('../images/banner/10.png');
 	/* background-image: url(../images/banner/1.mp4); */
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -395,7 +395,9 @@ ul li {
   }
   
   .banner-image:nth-child(2) {
-	background-image: url(../images/banner/2.mp4);
+	/* background-image: url(../images/banner/2.mp4); */
+	background-image:url('../images/banner/12.png');
+
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -405,7 +407,9 @@ ul li {
   }
   
   .banner-image:nth-child(3) {
-	background-image: url(../images/banner/3.mp4);
+	/* background-image: url(../images/banner/3.mp4); */
+	background-image:url('../images/banner/11.png');
+
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -415,7 +419,9 @@ ul li {
   }
 
   .banner-image:nth-child(4) {
-	background-image: url(../images/banner/4.mp4);
+	/* background-image: url(../images/banner/4.mp4); */
+	background-image:url('../images/banner/10.png');
+
 	background-position: center top;
 	background-repeat: no-repeat;
 	-moz-background-size: cover;
@@ -448,7 +454,7 @@ ul li {
 	animation: scrollBanner 9s infinite 6s;
   }
   .banner-image:nth-child(4) {
-	animation: scrollBanner 9s infinite 6s;
+	animation: scrollBanner 9s infinite 9s;
   }
 .banner-text {
 	padding-top: 40%;
